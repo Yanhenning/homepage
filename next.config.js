@@ -12,6 +12,9 @@ module.exports = {
     return {
       "/": { page: "/" },
       "/about": { page: "/about" },
+      "/projects": { page: "/projects" },
+      "/404": { page: "/404" },
+      "/500": { page: "/500" }
     }
   },
   assetPrefix: !debug ? '/homepage/' : '',
