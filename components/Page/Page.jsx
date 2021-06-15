@@ -1,13 +1,13 @@
 import React from 'react'
 
-import './styles.module.scss'
+import styles from  './styles.module.scss'
 
-const Page2 = () => {
+const Page = (props) => {
     return (
-        <div className="container">
-
+        <div className={styles.container}>
+            { props.children }
         </div>
     )
 }
 
-export default Page2
+export default Page

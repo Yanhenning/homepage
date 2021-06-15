@@ -1,8 +1,8 @@
-@import 'styles/global.scss';
 
-.wrapper {
+
+.container {
   text-align: center;
-  background-color: $dark-background;
+  background-color: var(--dark-background);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
