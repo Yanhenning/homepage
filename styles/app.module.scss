@@ -1,0 +1,24 @@
+@import 'styles/global.scss';
+
+.wrapper {
+  text-align: center;
+  background-color: $dark-background;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.8rem;
+  color: var(--white);
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
