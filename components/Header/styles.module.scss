@@ -1,0 +1,24 @@
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  a {
+    font: 500 1rem Inter, sans-serif;
+    text-decoration: none;
+    color: var(--gray-50);
+
+    &:hover {
+      color: var(--purple-300)
+    }
+  }
+
+  .menuItem {
+    padding: 0.5rem;
+  }
+
+  .sectionItem {
+    display: flex;
+  }
+}

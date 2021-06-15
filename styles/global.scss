@@ -19,6 +19,7 @@
 
   --green-500: #04D361;
 
+  --purple-200: #b299f1;
   --purple-300: #9F75FF;
   --purple-400: #9164FA;
   --purple-500: #8257E5;
@@ -53,7 +54,7 @@ body, input, textarea, button {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-family: Lexend, sans-serif;
-  color: var(--gray-800);
+  color: var(--gray-100);
 }
 
 h1 {
