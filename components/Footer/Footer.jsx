@@ -4,8 +4,8 @@ import styles from './styles.module.scss'
 
 const Footer = () => {
     return (
-        <footer>
-            Footer
+        <footer className={styles.footerContainer}>
+            <h5>Footer</h5>
         </footer>
     )
 }

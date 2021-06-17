@@ -1,15 +1,14 @@
 
-
 .container {
   text-align: center;
-  background-color: var(--dark-background);
+  background-color: var(--white-background);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   font-size: 1.8rem;
-  color: var(--gray-50);
+  color: var(--text-primary);
 
   main {
     flex: 1;
@@ -18,19 +17,4 @@
     justify-content: space-between;
     width: 100vw;
   }
-}
-
-.test {
-  background-color: #9f75ff;
-}
-
-.appBody {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 1.8rem;
-}
-
-.App-link {
-  color: #61dafb;
 }

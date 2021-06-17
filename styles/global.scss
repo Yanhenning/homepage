@@ -9,6 +9,21 @@
 }
 
 :root {
+  --charcoal: #264653ff;
+  --persian-green: #2a9d8fff;
+  --orange-yellow-crayola: #e9c46aff;
+  --sandy-brown: #f4a261ff;
+  --burnt-sienna: #e76f51ff;
+
+  --primary: #264653ff;
+  --secondary: #e76f51ff;
+  --text-primary: #E6E8EB;
+  --text-secondary: #E6E8EB;
+  --hover-primary: #f4a261ff;
+  --hover-secondary: #2a9d8fff;
+  --dark-background: #282c34;
+  --white-background: #FFF;
+
   --white: #FFF;
 
   --gray-50: #F7F8FA;
@@ -17,15 +32,19 @@
   --gray-500: #808080;
   --gray-800: #494D4B;
 
-  --green-500: #04D361;
+  --green-50: #a6eace;
+  --green-200: #7de2a8;
+  --green-300: #52de91;
+  --green-500: #1dd270;
+  --green-600: #24834a;
 
+  --purple-50: #cbbde2;
   --purple-200: #b299f1;
   --purple-300: #9F75FF;
   --purple-400: #9164FA;
   --purple-500: #8257E5;
   --purple-800: #6F48C9;
-
-  --dark-background: #282c34;
+  --purple-900: #563d7c;
 }
 
 @media (max-width: 1080px) {
@@ -54,7 +73,7 @@ body, input, textarea, button {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-family: Lexend, sans-serif;
-  color: var(--gray-100);
+  color: var(--gray-500);
 }
 
 h1 {
